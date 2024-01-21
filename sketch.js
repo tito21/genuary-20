@@ -10,7 +10,7 @@ let text = "Generative typography";
 let textElem;
 let textGraphic
 
-let drawLines = false;
+let drawLines = true;
 
 function resetText() {
   console.log("Change");
@@ -68,7 +68,11 @@ function setup() {
   noStroke();
   fill(0);
 
-  textGraphic.show();
+  frameRate(60);
+
+  // textGraphic.show();
+  saveGif('lines.gif', 500*3/60);
+
 }
 
 function draw() {
