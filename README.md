@@ -1,6 +1,4 @@
-# Pointillism
+# Generative Typography
 
-This is a p5.js filter that draws images in a pointillism style. It uses a
-a layered Poisson disk sampling strategy to place the dots.
-
-Live demo https://tito21.github.io/pointillism/
+Prompted by todays [genuary](https://genuary.art/prompts#jan20) (20 January
+2024)
